@@ -1,0 +1,183 @@
+body 
+{
+	background-color: grey;
+	background-image:url("images/cover1.jpg");
+	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+}
+.social
+
+{
+	width: 35px;
+	height: 35px;
+	padding-top: 2.5px;
+	padding-left:2.5px;
+	cursor: pointer;
+} 
+.navigation ul
+{
+	float: right;
+ 	display: inline;
+}
+.container {margin-left:15%; margin-top:15%;}
+.about {background-color:#FFA07A; 
+	font-family: Impact; 
+	height:30px; 
+	width:10%; 
+	padding:5px;
+	 color:white;
+	 text-shadow: 1px 1px black;
+	 text-align: center;
+	 size: 35px;
+	}
+	.hr {font-size: 30px}
+.navigation ul button
+{
+
+	padding: 5px;
+	padding-right: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	border:none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px #FFA07A;
+	background: none;
+	width:auto;
+	color:white;
+}
+.m, .b {
+	font-weight: : bolder;
+	font-size: 150%;
+	color:#FFA07A;
+
+}
+ .master {
+ 	color: white;
+ 	margin-left: -5%;
+ 	
+ }
+ .navigation
+{
+	background-color: #CFA46D;
+	margin-top: 2%;
+}
+ .bankname
+{
+	float: left;
+	padding-left: 10px;	
+	font-size: 35px;
+	font-family: Impact;
+}
+.logo
+{
+	
+	float:left;
+	margin-top:-0.5%;
+}
+.form button {
+	border:4px solid #FFA07A;
+	border-radius: 25px;
+	width:300px;
+	 height: 80px; 
+	 cursor:pointer;
+	 margin:2%;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 20px;
+	}
+	.footer
+{
+	background-color:#FFA07A ;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 0px;
+	text-align: center;
+	width:100%;
+	margin-top: 112px;
+	
+}
+
+
+ .newClient_form {
+      display: none; 
+      position: fixed; /* Stay in place */
+      /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      /* Modal Content/Box */
+      .modal-content {
+      background-color: #fefefe;
+      margin: 10vh auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 60%; /* Could be more or less, depending on screen size */
+      }
+      @media (min-width: 1366px) {
+      .modal-content {
+      background-color: #fefefe;
+      margin: 10vh auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 30%; /* Could be more or less, depending on screen size */
+      }
+      }
+      form {
+      padding: 25px;
+      margin: 25px;
+      box-shadow: 0 2px 5px #f5f5f5; 
+      background: #eee; 
+      }
+      input, textarea {
+      width: calc(100% - 18px);
+      padding: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #1c87c9;
+      outline: none;
+      }
+      .myform button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #1c87c9; 
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      }
+      button:hover {
+      background:     #edbb99;
+      }    
+     
+      .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+      }
+      button.button {
+      background:none;
+      border-top:none;
+      outline: none;
+      border-right:none;
+      border-left:none;
+      border-bottom:#02274a 1px solid;
+      padding:0 0 3px 0;
+      font-size:16px;
+      cursor:pointer;
+      }
+      button.button:hover {
+      border-bottom:#a99567 1px solid;
+      color:#a99567;
+      }

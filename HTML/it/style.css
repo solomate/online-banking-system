@@ -1,0 +1,140 @@
+body 
+{
+	background-image:url("images/bank3.jpg");
+	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: 1550px 1370px;
+}
+
+.navigation ul
+{
+	float: right;
+}
+.container {margin-left:15%; margin-top:12%;}
+.about { 
+	font-family: Impact; 
+	height:30px; 
+	width:10%; 
+	padding:5px;
+	 color:white;
+	 text-shadow: 1px 1px black;
+	 text-align: center;
+	 size: 35px;
+	}
+.manager {font-size: 30px;}
+.navigation ul button
+{
+	border: none;
+	padding: 5px;
+	padding-right: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px #FFA07A;
+	background: none;
+	color:white;
+	cursor: pointer;
+}
+.m, .b {
+	font-weight: bolder;
+	font-size: 150%;
+	color:#FFA07A;
+
+}
+ .master {
+ 	color: white;
+ 	margin-left: -5%;
+ 	
+ }
+ .navigation
+{
+	background-color: #CFA46D;
+	margin-top: 2%;
+}
+ .bankname
+{
+	float: left;
+	padding-left: 10px;	
+	font-size: 35px;
+	font-family: Impact;
+}
+.logo
+{
+	
+	float:left;
+	margin-top:-0.5%;
+}
+/*start new client style*/
+
+.Get_Employee_Data
+{ 
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	font-family: Arial, Helvetica, sans-serif;	
+}
+.modal-content
+{
+	background-color: #fefefe;
+	margin: 10vh auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 35%; /* Could be more or less, depending on screen size */
+	border-radius: 25px;
+}
+form
+{
+	padding: 25px;
+	margin: 25px;
+	box-shadow: 0 2px 5px #f5f5f5; 
+	background: #eee; 
+	border-radius: 25px;
+}
+form h2
+{
+	margin: 0 0 20px;
+    font-weight: 400;
+    color: #666;
+    text-align: center;
+    font-size: 25px;
+}     
+ /*end new client style */
+ table 
+ {
+  width:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+}
+table, th {
+  border: 1px solid black;
+}
+th, td {
+  padding: 11px;
+  text-align: left;
+}
+td
+{
+    border: 1px solid #2e86c1;
+}
+
+table tr {
+ background-color: #fff;
+}
+table th {
+  background-color: #2e86c1;
+  color: white;
+  width: 20%;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.Get_Employee_Data .modal-content
+{
+	background-color: #fefefe;
+	margin: 10vh auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 60%; /* Could be more or less, depending on screen size */
+}
+.Employee_Data_form table td
+{
+	height: 17px;
+} 

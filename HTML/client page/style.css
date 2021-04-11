@@ -1,0 +1,304 @@
+body
+{
+	background-color: #f2f3f4;
+	background-image: url("images/cover2.jpg");
+}
+.header
+{
+	width: auto;
+	height: 70px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.logo
+{
+	float: left;
+}
+.bank_name
+{
+	float: left;
+}
+.header button
+{
+	float: right;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px #FFA07A;
+
+	cursor: pointer;
+}
+.m, .b {
+	font-weight: bolder;
+	font-size: 150%;
+	color:#FFA07A;
+}
+ .master {
+ 	color: white;
+ }
+ .bank_name
+{
+	float: left;
+	padding-left: 10px;
+	font-size: 40px;
+	font-family: Impact;
+}
+/*start information*/
+.container
+{
+	width: 1250px;
+    margin: auto;
+
+}
+.person
+{
+	margin-top: 30px;
+	height: 350px;
+}
+.person .photo
+{
+	width: 300px;
+	height: 330px;
+	background-color: white;
+	float: left;
+}
+.person .photo h2 ,.person .photo h3
+{
+	padding-top: 15px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.person .photo img
+{
+	padding-left: 100px;
+	padding-top: 30px;
+}
+.person_information
+{
+	width: 940px;
+	height: 163.5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	float: left;
+	margin-left: 3px;
+}
+.person_information h3
+{
+	padding-left: 50px;
+	color: #3498db ;
+}
+.person_information .hed
+{
+	list-style: none;
+	float: left;
+	overflow: hidden;
+}
+.person_information .hed li
+{
+	float: left;
+	padding: 0px 230px 0px 11px;
+	font-weight: bold;
+}
+.person_information .myinfo
+{
+	list-style: none;
+	float: left;
+	overflow: hidden;
+}
+.person_information .myinfo li
+{
+	float: left;
+	width: 275px;
+	color: #666;
+}
+.person_information .myinfo .last
+{
+	padding-left: 11px;
+}
+/*end information*/
+
+/*start services*/
+.services button
+{
+	margin-top: 30px;
+	width: 30%;
+	height: 90px;
+	border: 1px solid #21618c;
+	background-color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s;
+    position: relative;
+    color:  #1b4f72  ;
+}
+.services button:hover
+{
+	transform: scale(1.2);
+}
+.services .marg
+{
+	margin-left: 55px;
+}
+.services button img
+{
+	float: left;
+	width:100px;
+	height: 80px;
+}
+.services button span
+{
+	float: left;
+	padding: 30px 0px 0px 10px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*pop-up*/
+
+.statmentmodel, .warningsmodel, .remindersmodel , .enquirymodel, .visamodel, .offersmodel {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+
+}
+.statmentform, .warningsform, .remindersform, .enquiryform, .visaform, .offersform {
+	margin:25px;
+	background: #eee;
+	padding: 30px;
+	box-shadow: 0 2px 5px #f5f5f5;
+	border-radius: 25px;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.statmentmodel input, .enquirymodel input, .enquirymodel textarea
+{
+	width: calc(100% - 18px);
+	padding: 8px;
+	margin-bottom: 20px;
+	border: 1px solid #2e86c1;
+	outline: none;
+	border-radius: 25px;
+}
+.visamodel input, .visamodel select, select {
+	display: block;
+	width: calc(40% - 9px);
+	padding: 8px;
+	margin-bottom: 20px;
+	border: 1px solid #2e86c1;
+	outline: none;
+	border-radius: 25px;
+}
+
+.offersmodel .off1 {
+	float: right;
+	width:100px;
+	height: 80px;
+	margin-top: -50px; }
+	.offersmodel .off2 {
+	float: right;
+	width:100px;
+	height: 80px;
+	margin-top: -50px;
+}
+	.offersmodel .wordsss{margin-top: 150px;}
+.statmentmodel button , .visamodel button
+{
+ 	width:100%;
+	padding: 10px;
+	outline: none;
+	border-radius: 25px;
+	background: #2e86c1;
+	text-align: center;
+}
+.enquirymodel button {
+	width:50%;
+	padding: 10px;
+	outline: none;
+	border-radius: 25px;
+	background: #2e86c1;
+	text-align: center;
+}
+.offersform li {font-size: 16px; font-family: Impact; font-weight: lighter; }
+  table {
+  width:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+}
+table, th {
+  border: 1px solid black;
+}
+th, td {
+  padding: 15px;
+  text-align: center
+}
+td
+{
+    border: 1px solid #2e86c1;
+
+}
+
+table tr {
+ background-color: #fff;
+}
+table th {
+  background-color: #2e86c1;
+  color: white;
+  width: 20%;
+}
+.close
+{
+	color: #aaa;
+	font-size: 28px;
+	font-weight: bold;
+	float:right;
+}
+.close:hover,
+.close:focus
+{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+.modal-content
+{
+background-color: #fefefe;
+	margin: 5vh auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 50%; /* Could be more or less, depending on screen size */
+	border-radius: 25px;
+}
+
+.mysubmit
+{
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	float: left;
+}
+.mysubmit:hover
+{
+	background-color:  #1b4f72;
+}
+ form
+{
+	padding: 140px;
+	margin: 20px;
+	box-shadow: 0 2px 5px #f5f5f5;
+	background: #eee;
+	border-radius: 25px;
+}
