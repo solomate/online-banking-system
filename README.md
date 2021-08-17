@@ -8,4 +8,5 @@ The project is a banking system as a website. This website has a client service 
 4. PHP
 5. Mysql
 ## Responsibilities
-* All of the back-end except Login and Signup.
+* Login ans signup system.
+* Verification and validation testing.
